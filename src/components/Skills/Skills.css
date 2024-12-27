@@ -1,0 +1,197 @@
+.skillaContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.skillsWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsInfo{
+    width: 800px;
+    margin-bottom: 50px;
+   
+}
+.skillsSpan{
+    margin-bottom: 15px;
+    font-size: 10px;
+    text-transform:uppercase ;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+}
+.skillsTitle{
+    margin:20px 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    font-family: Playfair Display, Georgia, serif;
+}
+
+.skillsDesc{
+    font-family: Quicksand, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #999;
+}
+
+
+/* progress */
+.containerProgress{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstProgress , .secondProgress , .thirdProgress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 13px 0;
+}
+
+.firstProgressInfoItems , .secondProgressInfoItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.firstProgressInfoSpan , .secondProgressInfoSpan{
+  display: inline-block;
+}
+.firstProgresslabel{
+  display: inline-block;
+  margin-right: 100px;
+  color: #2c98f0 !important;
+  ;
+}
+.secondProgresslabel{
+    margin-right: 150px;
+    color: #ec5453;
+}
+.thirdProgresslabel{
+    margin-right: 40px;
+    color: #f9bf3f;
+}
+.fourProgresslabel{
+    margin-right: 20px;
+    color: #a84cb8;
+}
+.fiveProgresslabel{
+    margin-right: 86px;
+    color: #2fa499;
+}
+.sixProgresslabel{
+    margin-right: 60px;
+    color: #4054b2;
+}
+.progressIcon  , .progressIconTwo{
+    width: 100%;
+   height: 13px;
+}
+
+.secondPro{
+    background-color: #ec5453 !important;
+}
+.thirdPro{
+    background-color: #f9bf3f !important;
+}
+.fourPro{
+    background-color: #a84cb8 ;
+}
+.fivePro{
+    background-color: #2fa499;
+}
+.sixPro{
+    background-color: #4054b2;
+}
+
+@media screen and (max-width:767px) {
+    .skillsInfo{
+        width: 220px;
+        margin-bottom: 30px;
+       
+    }
+    .skillsSpan{
+        margin-bottom: 15px;
+        font-size: 10px;
+        text-transform:uppercase ;
+        color: #999;
+        font-weight: 500;
+        letter-spacing: 5px;
+        font-family: Quicksand, Arial, sans-serif;
+    }
+    .skillsTitle{
+        margin:20px 0;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 1.4;
+        font-family: Playfair Display, Georgia, serif;
+    }
+    .skillsDesc{
+        font-family: Quicksand, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 1.8;
+        color: #999;
+    }
+    .firstProgress , .secondProgress , .thirdProgress{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        margin: 13px 0;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    .firstProgressInfoItems , .secondProgressInfoItems{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .firstProgresslabel{
+        display: inline-block;
+        margin-right: 45px;
+        color: #2c98f0 !important;
+      }
+      .secondProgresslabel{
+        margin-right: 70px;
+        color: #ec5453;
+    }
+    .thirdProgresslabel{
+        margin-right: 30px;
+        color: #f9bf3f;
+    }
+    .fourProgresslabel{
+        margin-right: 20px;
+        color: #a84cb8;
+    }
+    .fiveProgresslabel{
+        margin-right: 40px;
+        color: #2fa499;
+    }
+    .sixProgresslabel{
+        margin-right: 40px;
+        color: #4054b2;
+    }
+    
+}

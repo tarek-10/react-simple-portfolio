@@ -1,0 +1,161 @@
+.aboutContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutInfo {
+  width: 830px;
+ 
+}
+.aboutSpan {
+  color: #999;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.aboutInfoTitle {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: 600;
+}
+.aboutPargraph {
+  margin-top: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: #6b6969;
+}
+.aboutPragraphSpan {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(34, 33, 33);
+}
+.aboutDiv {
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2px;
+}
+.aboutDivContent , .aboutDivContent2 , .aboutDivContent3 , .aboutDivContent4 {
+  width: 195px;
+  height: 170px;
+  box-shadow: 0 0 56px -8px #0000002b;
+  border-bottom: 2px solid #2c98f0;
+}
+.aboutDivContent2{
+    border-bottom: 2px solid #ec5453;
+
+}
+.aboutDivContent3{
+    border-bottom: 2px solid #f9bf3f;
+
+}
+.aboutDivContent4{
+    border-bottom: 2px solid #a84cb8;
+
+}
+
+.abourDicIcon{
+    padding: 20px;
+    font-size: 30px;
+    color: #2c98f0;
+}
+.abourDicIcon2{
+    padding: 20px;
+    font-size: 30px;
+    color: #ec5453;
+} 
+.abourDicIcon3{
+    padding: 20px;
+    font-size: 30px;
+    color:#f9bf3f;
+}
+.abourDicIcon4{
+    padding: 20px;
+    font-size: 30px;
+    color:#a84cb8;
+}
+.aboutDiv > .aboutDivContent:nth-child(2) {    
+    border-bottom: #ec5453 !important; 
+  }
+
+.aboutDivDesc{
+  padding: 4px 20px;
+  font-size: 15px;
+  font-weight: bold;
+   
+}
+
+@media screen and (max-width: 767px) {
+  .aboutContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutInfo {
+    width: 220px;
+    padding: 10px;
+  }
+  .aboutSpan {
+    color: #999;
+    text-transform: uppercase;
+    display: block;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .aboutInfoTitle {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .aboutPargraph {
+    margin-top: 15px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11px;
+    color: #6b6969;
+  }
+  .aboutPragraphSpan {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(34, 33, 33);
+  }
+  .aboutDiv {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .aboutDivContent , .aboutDivContent2 , .aboutDivContent3 , .aboutDivContent4 {
+    width: 210px;
+    height: 150px;
+    box-shadow: 0 0 56px -8px #0000002b;
+    margin: 15px ;
+    border-bottom: 2px solid #2c98f0;
+  }
+  .aboutDivContent2{
+    border-bottom: 2px solid #ec5453;
+
+}
+.aboutDivContent3{
+    border-bottom: 2px solid #f9bf3f;
+
+}
+.aboutDivContent4{
+    border-bottom: 2px solid #a84cb8;
+
+}
+}
